@@ -1,7 +1,12 @@
 site_name: Ruchitha Siliveru
 
+nav:
+  - Home: index.md
+
 theme:
   name: material
+  markdown_extensions:
+    - pymdownx
 
   social:
     - icon: fontawesome/brands/github
