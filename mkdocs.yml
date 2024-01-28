@@ -1,16 +1,28 @@
 site_name: Ruchitha Siliveru
 
 theme:
-  name: windmill
+  name: material
 
-markdown_extensions:
-  - admonition
-  - codehilite
-  - toc:
-      permalink: true
-
-extra:
   social:
-    - type: github
-      link: https://github.com/ruchitax/resume
-    # Add other social links as needed
+    - icon: fontawesome/brands/github
+      link: https://github.com/<username>
+    - icon: fontawesome/solid/envelope
+      link: mailto:someone@example.com
+
+  social_links:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/<username>
+      name: Follow me on Twitter
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/<username>
+      name: Connect on LinkedIn
+
+  footer_social_links:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/<username>
+      name: Twitter
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/<username>
+      name: LinkedIn
