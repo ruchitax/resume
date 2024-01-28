@@ -1,7 +1,7 @@
 site_name: Ruchitha Siliveru
 
 theme:
-  name: materia
+  name: windmill
 
 markdown_extensions:
   - admonition
